@@ -371,6 +371,12 @@
   flex-direction: row-reverse;
 }
 
+/* Section ABOUT US ============================= */
+
+.section-about-us [class^="col-"] {
+  align-self: center;
+}
+
 /* Section SERVICES ============================= */
 .section-services .row {
   flex-wrap: wrap;
