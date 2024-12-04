@@ -210,8 +210,8 @@
     display: flex;
   }
   
-  .nav-item + .nav-item{
-    margin: var(0 0 0 2rem);
+  .nav .nav-item + .nav-item{
+    margin: var(--nav-item-margin);
   }
 
   .nav .nav-item {
